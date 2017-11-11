@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Mail App</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="includes/indexController.js"></script>
+    
+</head>
+
+<body> 
+
+    <div id="wrapper">
+
+            <main>
+                <div id="content-wrapp">
+                    <div class="arrow-left"></div>
+                    <div class="arrow-up"></div>
+                    <div class="login-container">
+                        <form method="post" id="loginForm">
+                            <div >
+                              <div class="form-icon"><i class="glyphicon glyphicon-user"></i></div>
+                              <input type="text" id="user" name="user" placeholder="Username">   
+                              <div class="clear"></div>
+                            </div>
+
+                            <div>
+                              <div class="form-icon"><i class="glyphicon glyphicon-lock"></i></div> 
+                              <input type="password" id="pass" name="pass" placeholder="Password">  
+                              <div class="clear"></div>
+                            </div>
+
+                            <input type="submit" name="login" class="btn btn-info" value="Login">
+                        </form>
+                        <a href="#" id="Q">Lost your password?</a>
+
+                   </div>
+                   <div id="icon">
+                        <img id="icon-img" src="images/icon4.png">
+                        <div class="txt1">Welcome to</div>
+                        <div class="txt2">Mail App</div>
+                    </div>
+                    <div id="loaderBox"></div>
+               </div> 
+         
+            </main>
+            
+    </div>   
+
+</body>
+</html>
+
