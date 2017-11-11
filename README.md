@@ -2,7 +2,8 @@
 
 Welcome to Mail App!
 
-_
+
+
 For Login:
 username: mail_app
 password: 12345
