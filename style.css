@@ -133,7 +133,7 @@ input[type=text]::placeholder, input[type=password]::placeholder{
     height: 0;
     position: absolute;
     display: block;
-    left: -11px;
+    left: -10px;
     top: 23px;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
