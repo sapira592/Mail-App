@@ -149,7 +149,7 @@ input[type=text]::placeholder, input[type=password]::placeholder{
   display: inline-block;
   transform: translate(-50%, -50%);
   top: 110%;
-  left: 42%;
+  left: 44%;
   z-index: 10;
 }
 
@@ -190,7 +190,7 @@ input[type=text]::placeholder, input[type=password]::placeholder{
 
 	#icon{
 	    top: -62%;
-    	left: 52%;
+    	left: 54%;
 	}
 
 	.arrow-left{
@@ -202,8 +202,8 @@ input[type=text]::placeholder, input[type=password]::placeholder{
 	  height: 0; 
 	  display: block;
 	  position: absolute;
-	  left: 45%;
-      top: -5%;
+	  left: 46%;
+    top: -5%;
 	  border-left: 12px solid transparent;
 	  border-right: 12px solid transparent;
 	  border-bottom: 12px solid #F7F7F7;
